@@ -1,4 +1,4 @@
-package com.adamfgcross.java_data_practice;
+package com.adamfgcross.javadatapractice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

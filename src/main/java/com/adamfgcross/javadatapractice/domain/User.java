@@ -1,10 +1,13 @@
-package domain;
+package com.adamfgcross.javadatapractice.domain;
 
+import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity
+@Table(name = "app_user")
 public class User {
 
 	@Id
