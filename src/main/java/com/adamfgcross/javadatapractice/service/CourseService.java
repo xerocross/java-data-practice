@@ -1,5 +1,7 @@
 package com.adamfgcross.javadatapractice.service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,5 +19,10 @@ public class CourseService {
 	@Transactional
 	public Course insert(Course course) {
 		return courseDao.insert(course);
+	}
+	
+	@Transactional
+	public List<Course> getAll() {
+		return courseDao.getAll();
 	}
 }

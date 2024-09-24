@@ -42,4 +42,8 @@ public class Course {
 	public Long getId() {
 		return id;
 	}
+	
+	public String toString() {
+		return String.format("%d - %s - %d h", this.id, this.name, this.hours);
+	}
 }
